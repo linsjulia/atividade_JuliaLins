@@ -47,4 +47,6 @@ public class ex3 {
         return imagemFiltrada;
     }
 }
-// Esse filtro identifica bordas diagonais porque ele compara os valores dos pixels ao longo das diagonais da imagem. Ele foca nas diferenças de intensidade ao longo dessas direções (superior-esquerda para inferior-direita e inferior-esquerda para superior-direita), que são características das bordas diagonais. O filtro gera uma resposta forte quando há uma transição abrupta de intensidade nessas direções.
+// Esse filtro identifica bordas diagonais porque ele compara os valores dos pixels ao longo das diagonais da imagem.
+// Ele foca nas diferenças de intensidade ao longo dessas direções (superior-esquerda para inferior-direita e inferior-esquerda para superior-direita), que são características das bordas diagonais. 
+// O filtro gera uma resposta forte quando há uma transição abrupta de intensidade nessas direções.
